@@ -14,7 +14,7 @@ body{
 }
 
 
-footer{
+.footer{
     display: flex;
     background-color: #1C4587;
     padding: 3em;
@@ -89,7 +89,7 @@ h1{
     margin-bottom: 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .footer {
         display: flex;
         background-color: #1C4587;
@@ -99,5 +99,10 @@ h1{
         bottom: 0;
         margin-bottom: 0;
         border: 3px solid black;
-        position: absolute;
-    }}
+        position: relative;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+}
