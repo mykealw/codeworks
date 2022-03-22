@@ -15,9 +15,10 @@ body{
 
 
 footer{
+    display: flex;
     background-color: #1C4587;
     padding: 2.2em;
-    position: fixed;
+    position: absolute;
     width: 100%;
     margin-top:-2em;
     bottom: 0;
@@ -40,6 +41,7 @@ h1{
     padding: 1em;
     border: 3px solid black;
     margin-top: 0;
+    width: 100%;
 }
 
 .d-flex{
@@ -82,4 +84,8 @@ span{
 
 .smalltext{
     font-size: smaller;
+}
+
+.mb0{
+    margin-bottom: 0;
 }
