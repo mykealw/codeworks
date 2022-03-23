@@ -18,11 +18,11 @@ body{
     display: flex;
     background-color: #1C4587;
     padding: 3em;
-    position: absolute;
-    width: 100%;
-    margin-top:-2em;
-    bottom: 0;
-    margin-bottom: 0;
+    /* position: absolute; */
+    /* width: 100%; */
+    /* margin-top:-2em; */
+    /* bottom: 0; */
+    /* margin-bottom: 0; */
     border: 3px solid black;
 }
 
@@ -89,6 +89,7 @@ h1{
     margin-bottom: 0;
 }
 
+
 @media screen and (max-width: 600px) {
     .footer {
         display: flex;
@@ -102,7 +103,7 @@ h1{
         position: relative;
     }
     .row{
-        display: flex;
+        display: flexbox;
         flex-direction: row;
     }
 }
