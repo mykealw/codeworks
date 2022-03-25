@@ -1,0 +1,25 @@
+.headheight{
+    max-height: 10vh;
+}
+#bl-logo{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.mainSplash{
+    background-image: url('https://m.media-amazon.com/images/I/81cmw7Eo-kL._SL1500_.jpg');
+
+}
+
+.notextstyle{
+    text-decoration: none;
+}
+
+.bgShower{
+    backdrop-filter: blur(4px);
+}
+
+#album{
+    max-height: 8vh;
+    max-width: 8vh;
+}
