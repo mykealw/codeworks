@@ -13,22 +13,25 @@
 
   </head>
   <body>
-      
-    <header>
-        <div class="container-fluid sticky-sm-top">
-            <div class="row bg-dark headheight">
-                <div class="col-12 d-flex">
-                    <img class="img-fluid" id="bl-logo" src="assets/Logo-Blink-182.jpg" alt="Blink 182">
+    <header class="sticky-top stick bg-dark">
+        <nav class="navbar nav-bar-dark bg-dark"></nav>
+        <div class="container-fluid ">
+            <div class="row bg-dark  ">
+                <div class="col-12 d-flex  ">
+                    <a class="navbar-brand" href="#">
+                    <img src="assets/Logo-Blink-182.jpg" alt="Blink-182 Nav" class="headheight">
+                    </a>
                     <h4 class="text-light px-3">Blink-182</h4>
                 </div>
             </div>
         </div>
+        </nav>
     </header>
     <main>
         <section>
             <div class="container-fluid mainSplash">
                 <div class="row ">
-                    <div class="col-md-3 col-sm-12 ">
+                    <div class="col-md-3 col-12 ">
                         <div class=" mb-4 mt-4 transparent ">
                             <label for="exampleFormControlInput1" class="form-label fs-3 fw-bold"> Tour Updates</label>
                             <input type="name" class="form-control transparent shadow" id="exampleFormControlInput1" placeholder="NAME">
@@ -55,26 +58,26 @@
                 </div>
             </div>
         </div>
-        <section>
+        <section id="Albums">
             <div class="container-fluid">
-                <div class="row bg-dark">
-                    <div class="col-md-6 col-sm-12 order-md-first order-sm-last">
+                <div class="row bg-dark ">
+                    <div class="col-md-6 col-12 order-md-first order-last">
                         <h3 class="text-light">Album Information</h3>
                         <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aut nesciunt neque nobis quis. Ipsa facere ipsam ullam enim doloremque, vero corporis praesentium nobis unde, assumenda pariatur? Id quisquam totam quae eligendi sed ducimus recusandae porro quibusdam aliquid velit? Tempora sapiente, cum obcaecati quia voluptatum perspiciatis quibusdam quos? In, nobis.</p>
                     </div>
-                    <div class="col-md-6 col-sm-12 card order-md-last order-sm-first">
+                    <div class="col-md-6 col-12 card order-md-last order-first">
                         <p> <img id="album" src="assets/cat.jpg" alt=""> <b> Cheshire Car</b> Released: February 1995. <br><img id="album" src="assets/dude.jpg" alt=""> <b> Dude Ranch</b> Released: June 1997. <br> <img id="album" src="assets/enema.jpg" alt=""><b> Enema of the State</b> Released: June 1999. <br><img id="album" src="assets/toypaj.jpg" alt=""> <b> Take Off Your Pants and Jacket</b> Released: June 2001. <br> <img id="album" src="assets/blink.jpg" alt=""><b> Blink-182</b> Released: November 2003. <br><img id="album" src="assets/neighbors.jpg" alt=""> <b> Neighborhoods</b> Released: September 2011. <br><img id="album" src="assets/california.jpg" alt=""> <b>California</b> Released: July 2016. <br> <img id="album" src="assets/nine.png" alt=""><b> Nine</b> Released: September 2019. </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section id="band">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-3 col-sm-12 bg-dark p3">
+                    <div class="col-md-3 col-12 bg-dark p3">
                         <img class="img-fluid" src="assets/band.jpg">
                     </div>
-                    <div class="col-md-9 col-sm-12">
+                    <div class="col-md-9 col-12">
                         <h3>Band Members</h3>
                         <p><b>Mark Hoppus</b> Born March 15, 1972.  <br>  <b>Travis Barker</b> about travis <br> <b>Tom DeLonge</b> about Tom <br> <b>Matt Skiba</b> about Matt</p>
 
@@ -82,25 +85,55 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12"></div>
-                    <div class="col-md-4 col-sm-12"></div>
-                    <div class="col-md-4 col-sm-12"></div>
+        <section id="groupies">
+            <div class="container-fluid bg-dark  align-content-center flex-wrap py-5">
+                <div class="row bg-dark align-center align-content-around flex-wrap ">
+                    <div class="col-md-1  "></div>
+                    <div class="col-md-3 col-12 order-md-1">
+                        <div class="card text-center">
+                            <h4>Something</h4>
+                            <p>somewords or shit</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 order-md-0">
+                        <div class="card text-center">
+                            <h4><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><br> Josie</h4>
+                            <p>somewords or shit</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12 ">
+                        <div class="card text-center">
+                            <h4>Something</h4>
+                            <p>somewords or shit</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 "></div>
                 </div>
             </div>
         </section>
         <section>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-12">
 
                     </div>
                 </div>
             </div>
         </section>
-        <footer>
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="row center">
+                    <div class="col-12 text-center bg-dark">
+                        <a href="https://twitter.com/blink182"><i class="mdi mdi-twitter mdi-spin fs-4  text-light"></i></a> 
+                        <a href="https://www.facebook.com/blink182/"><i class="mdi mdi-facebook mdi-spin fs-4  text-light"></i></a>
+                        <a href="https://www.instagram.com/blink182"><i class="mdi mdi-instagram mdi-spin fs-4  text-light"></i></a>
+                        <a href="https://www.youtube.com/channel/UCdvlHk5SZWwr9HjUcwtu8ng"><i class="mdi mdi-youtube mdi-spin fs-4 text-light"></i></a>
+                        <a href="https://itunes.apple.com/us/artist/blink-182/116851"><i class="mdi mdi-apple mdi-spin fs-4 text-light"></i></a>
+                        <a href="https://open.spotify.com/artist/6FBDaR13swtiWwGhX1WQsP"><i class="mdi mdi-spotify mdi-spin fs-4 text-light"></i></a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <i class="mdi mdi-cat mdi-spin fs-4 text-light"></i></a>
+                    </div>
+                </div>
+            </div>
 
         </footer>
 

@@ -1,5 +1,6 @@
 .headheight{
     max-height: 10vh;
+    
 }
 #bl-logo{
     max-height: 50px;
@@ -22,4 +23,25 @@
 #album{
     max-height: 8vh;
     max-width: 8vh;
+}
+
+@media only screen and (min-width: 767.98px) {
+    .stick{
+        position: relative !important ;
+    }
+    .order0{
+        
+    }
+    .order1{
+
+    }
+    .order2{
+
+    }
+    .order3{
+
+    }
+    .order4{
+
+    }
 }
