@@ -12,6 +12,11 @@
     backdrop-filter: blur(4px);
 }
 
+.bgfill
+{background: fixed;
+
+}
+
 .headheight{
     max-height: 10vh; 
 }
@@ -35,6 +40,10 @@
     
     .absolute{
         position: absolute !important;
+    }
+
+    .mt-ultra{
+        margin-top: 13rem;
     }
 }
 
