@@ -1,6 +1,7 @@
 #album{
     max-height: 8vh;
     max-width: 8vh;
+    border-radius: 50rem;
 }
 
 #bl-logo{
@@ -33,6 +34,13 @@
     text-decoration: none;
 }
 
+.pt-special{
+    align-self: space-around;
+    padding-top: 1rem !important;
+    margin-top: .5rem !important;
+    max-height: 10vh;
+}
+
 @media only screen and (min-width: 767.98px) {
     .stick{
         position: relative !important ;
@@ -42,8 +50,8 @@
         position: absolute !important;
     }
 
-    .mt-ultra{
-        margin-top: 13rem;
+    .pt-ultra{
+        padding-top: 13rem;
     }
 }
 
