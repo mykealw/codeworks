@@ -29,19 +29,19 @@
     .stick{
         position: relative !important ;
     }
-    .order0{
-        
-    }
-    .order1{
-
-    }
-    .order2{
-
-    }
-    .order3{
-
-    }
-    .order4{
-
-    }
+    
 }
+
+.lorem{
+    font-family: 'Creepster', cursive;
+}
+
+@media only screen and (max-width: 767px){
+
+    .order0{
+        order: -1;
+    }
+
+
+}
+    
