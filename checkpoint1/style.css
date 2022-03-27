@@ -1,28 +1,31 @@
-.headheight{
-    max-height: 10vh;
-    
+#album{
+    max-height: 8vh;
+    max-width: 8vh;
 }
+
 #bl-logo{
     max-height: 50px;
     max-width: 50px;
-}
-
-.mainSplash{
-    background-image: url('https://m.media-amazon.com/images/I/81cmw7Eo-kL._SL1500_.jpg');
-
-}
-
-.notextstyle{
-    text-decoration: none;
 }
 
 .bgShower{
     backdrop-filter: blur(4px);
 }
 
-#album{
-    max-height: 8vh;
-    max-width: 8vh;
+.headheight{
+    max-height: 10vh; 
+}
+
+.lorem{
+    font-family: 'Creepster', cursive;
+}
+
+.mainSplash{
+    background-image: url('https://m.media-amazon.com/images/I/81cmw7Eo-kL._SL1500_.jpg');
+}
+
+.notextstyle{
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 767.98px) {
@@ -30,14 +33,13 @@
         position: relative !important ;
     }
     
+    .absolute{
+        position: absolute !important;
+    }
 }
 
-.lorem{
-    font-family: 'Creepster', cursive;
-}
 
 @media only screen and (max-width: 767px){
-
     .order0{
         order: -1;
     }
