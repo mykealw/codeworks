@@ -16,14 +16,14 @@
               <div class="row">
                   <div class="d-flex space-around">
                       <div class="col6">
-                          <button class="btn btn-primary" onclick="homeScored()"> Increase Home Score</button>
-                          <button class="btn btn-primary" onclick="homeScored3()"> Increase Home Score by 3</button>
+                          <button class="btn btn-primary" onclick="homeScored(1)"> Increase Home Score</button>
+                          <button class="btn btn-primary" onclick="homeScored(3)"> Increase Home Score by 3</button>
 
                           <h3>Home Score: <span id="home">_____</span></h3>
                         </div>
                         <div class="col6">
-                            <button class="btn btn-secondary" onclick="awayScored()"> Increase Away Score</button>
-                            <button class="btn btn-secondary" onclick="awayScored3()"> Increase Away Score by 3</button>
+                            <button class="btn btn-secondary" onclick="awayScored(1)"> Increase Away Score</button>
+                            <button class="btn btn-secondary" onclick="awayScored(3)"> Increase Away Score by 3</button>
 
                             <h3>Away Score: <span id="away">______</span></h3>
                         </div>
@@ -32,14 +32,21 @@
           </div>
           <div class="container">
               <div class="row">
-                  <div class="col-6">
+                  <div class="col-6 d-flex">
                       <button class="btn btn-danger" onclick="reset()">Reset ALL SCORES</button>
-                      <button class="btn btn-danger" onclick="homeReduction()">Reduce Home Score</button>
-                      <button class="btn btn-danger" onclick="awayReduction()">Reduce Away Score</button>
+                      <button class="btn btn-danger" onclick="homeScored(-1)">Reduce Home Score</button>
+                      <button class="btn btn-danger" onclick="awayScored(-1)">Reduce Away Score</button>
                   </div>
                   <div class="col-6">
                       <button class="btn btn-warning" onclick="homeReset()">Reset HOME Score</button>
                       <button class="btn btn-warning" onclick="awayReset()" >Reset AWAY Score </button>
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <h3>Total Score: <span id="total">_____</span></h3>
                   </div>
               </div>
           </div>

@@ -1,63 +1,59 @@
 let homeScore = 0
 let awayScore = 0
+let totalScore = 0
 
-function homeScored() {
-    homeScore++
+function totalScored() {
+ totalScore= homeScore + awayScore
+    drawTotalScored()
+}
+
+function drawTotalScored() {
+    // console.log('word')
+    let totalElem = document.getElementById('total')
+    totalElem.innerText = totalScore.toString()
+}
+
+function homeScored(number) {
+    homeScore += number
     console.log(homeScore);
-    drawHome(homeScore)
+    drawHome()
+   totalScored()
 }
 
 function drawHome() {
     let homeElem = document.getElementById('home')
-    homeElem.innerText = homeScore
+    homeElem.innerText = homeScore.toString()
 }
 
-function awayScored() {
-    awayScore++
-    console.log(awayScore)
-    drawAway(awayScore)
+function awayScored(number) {
+    awayScore += number
+    // console.log(awayScore)
+    drawAway()
+    totalScored()
 }
 
 function drawAway() {
     let awayElem = document.getElementById('away')
-    awayElem.innerText = awayScore
+    awayElem.innerText = awayScore.toString()
 }
 
 function reset() {
     homeScore = 0
     awayScore = 0
-    drawHome(homeScore)
-    drawAway(awayScore)
+    totalScore =0
+    drawHome()
+    drawAway()
+    totalScored()
 }
 
 function homeReset() {
     homeScore = 0
-    drawHome(homeScore)
+    drawHome()
+    totalScored()
 }
 
 function awayReset() {
     awayScore = 0
-    drawAway(awayScore)
-}
-
-function homeScored3() {
-    homeScore = homeScore + 3
-    console.log(homeScore);
-    drawHome(homeScore)
-}
-
-function awayScored3() {
-    awayScore = awayScore + 3
-    console.log(awayScore)
-    drawAway(awayScore)
-}
-
-function homeReduction(){
-    homeScore--
-    drawHome(homeScore)
-}
-
-function awayReduction(){
-    awayScore--
-    drawAway(awayScore)
+    drawAway()
+    totalScored()
 }
