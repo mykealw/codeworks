@@ -8,7 +8,6 @@ function totalScored() {
 }
 
 function drawTotalScored() {
-    // console.log('word')
     let totalElem = document.getElementById('total')
     totalElem.innerText = totalScore.toString()
 }
@@ -27,7 +26,6 @@ function drawHome() {
 
 function awayScored(number) {
     awayScore += number
-    // console.log(awayScore)
     drawAway()
     totalScored()
 }
